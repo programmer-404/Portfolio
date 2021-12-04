@@ -95,7 +95,7 @@ function SideBar() {
                                             <div className="skillRating">
                                                 {skill.skillRating.map((rating,key)=>{
                                                     return(
-                                                        <i className={rating==1 ? "fas fa-star skillStar" : rating==0.5 ? "fas fa-star-half-alt skillStar" : "far fa-star skillStar"} key={key}/>
+                                                        <i className={rating===1 ? "fas fa-star skillStar" : rating===0.5 ? "fas fa-star-half-alt skillStar" : "far fa-star skillStar"} key={key}/>
                                                     )
                                                 })}
                                             </div>

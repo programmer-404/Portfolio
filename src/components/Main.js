@@ -1,6 +1,6 @@
 
 import React from "react";
-import {useState,useRef,useEffect} from 'react'
+import {useEffect} from 'react'
 import "../styles/Main.css"
 import Mock from "../Json/Mock.json"
 import Contact from "./Contact";
@@ -8,7 +8,6 @@ import Toggler from "./Toggler";
 
 function Main() {
     
-    const [showProjectInfo, setshowProjectInfo] = useState(true)
     
     
     useEffect(() => {
@@ -84,9 +83,9 @@ function Main() {
                 {/* <div className="quote">"{Mock.quote}"</div> */}
                 <div className="quote">
                 <h1>
-                <a href="" className="typewrite" data-period="2000" data-type={JSON.stringify(Mock.quote)}>
+                <p  className="typewrite" data-period="2000" data-type={JSON.stringify(Mock.quote)}>
                     <span className="wrap"></span>
-                </a>
+                </p>
                 </h1>
                 </div>
             </div>
@@ -108,7 +107,7 @@ function Main() {
                                             <div className="skillRating">
                                                 {skill.skillRating.map((rating,key)=>{
                                                     return(
-                                                        <i className={rating==1 ? "fas fa-star skillStar" : rating==0.5 ? "fas fa-star-half-alt skillStar" : "far fa-star skillStar"} key={key}/>
+                                                        <i className={rating===1 ? "fas fa-star skillStar" : rating===0.5 ? "fas fa-star-half-alt skillStar" : "far fa-star skillStar"} key={key}/>
                                                     )
                                                 })}
                                             </div>

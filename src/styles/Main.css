@@ -29,7 +29,7 @@
     box-shadow: 8px -8px 7px #47464659 ;
 }
 
-a.typewrite,.quote{
+p.typewrite,.quote{
     /* width:80%; */
     font-family: 'Satisfy', cursive;
     font-size: 2.3rem;
