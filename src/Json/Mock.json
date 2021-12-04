@@ -1,0 +1,184 @@
+{
+  "personalInfo": {
+    "name": "Akshay Narkar",
+    "jobTitle": "Web Developer",
+    "mobileNumber": "+917208470446",
+    "linkedIn": "https://www.linkedin.com/in/akshay-narkar-312204189",
+    "faceBook": "https://www.facebook.com/akshay.narkar.94",
+    "profileImg": "/assets/img/profile2.jpeg",
+    "languages": ["Marathi", "Hindi", "English"],
+    "resume": ""
+  },
+  "emailJs": {
+    "serviceID": "gmail",
+    "templateID": "portfolio_contact",
+    "userID": "user_97L3xnLgiUcHotVSLWdhw"
+  },
+  "generalInfo": [
+    {
+      "infoTitle": "Residence",
+      "infoValue": "India"
+    },
+    {
+      "infoTitle": "City",
+      "infoValue": "Mumbai"
+    },
+    {
+      "infoTitle": "Age",
+      "infoValue": "24"
+    }
+  ],
+
+  "education": [
+    {
+      "educationType": "Secondary Education",
+      "educationitems": [
+        {
+          "title": "School",
+          "value": "Sundatta High School"
+        },
+        {
+          "title": "Board",
+          "value": "Maharashtra State Board"
+        },
+        {
+          "title": "Y.O.P",
+          "value": "2013"
+        },
+        {
+          "title": "Percentage",
+          "value": "73.60%"
+        }
+      ]
+    },
+    {
+      "educationType": "Higher Secondary Education",
+      "educationitems": [
+        {
+          "title": "College",
+          "value": "Bhavan's H.S College"
+        },
+        {
+          "title": "Board",
+          "value": "Maharashtra State Board"
+        },
+        {
+          "title": "Y.O.P",
+          "value": "2015"
+        },
+        {
+          "title": "Percentage",
+          "value": "58%"
+        }
+      ]
+    },
+    {
+      "educationType": "Bachelor's Degree",
+      "educationitems": [
+        {
+          "title": "College",
+          "value": "Saraswati College Of Engineering"
+        },
+        {
+          "title": "University",
+          "value": "Mumbai University"
+        },
+        {
+          "title": "Y.O.P",
+          "value": "2019"
+        },
+        {
+          "title": "C.G.P.A",
+          "value": "6.78"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Vernost Marketing Technology Pvt. Ltd.",
+      "position": "Trainee Software Engineer",
+      "tenure": {
+        "startDate": "Oct 2020",
+        "endDate": "Present"
+      }
+    }
+    
+  ],
+  "quote": [
+    "Only 10% programming is coding.Other 90% is debugging.",
+    "There is nothing quite so permanent as a quick fix.",
+    "Experience is the name everyone gives to their mistakes.",
+    "Computers do not solve problems, they execute solutions.",
+    "One man’s constant is another man’s variable.",
+    "Code never lies, comments sometimes do."
+  ],
+  "skills": [
+    {
+      "skillName": "HTML 5",
+      "iconColor": "#e34f26",
+      "iconClass": "fab fa-html5",
+      "skillRating": [1, 1, 1, 0.5, 0]
+    },
+    {
+      "skillName": "CSS 3",
+      "iconColor": "#264de4",
+      "iconClass": "fab fa-css3-alt",
+      "skillRating": [1, 1, 1, 0.5, 0]
+    },
+    {
+      "skillName": "Javascript",
+      "iconColor": "#f0db4f",
+      "iconClass": "fab fa-js-square",
+      "skillRating": [1, 1, 1, 0, 0]
+    },
+    {
+      "skillName": "MySQL",
+      "iconColor": "#00758F",
+      "iconClass": "fas fa-database",
+      "skillRating": [1, 1, 1, 0, 0]
+    },
+    {
+      "skillName": "React",
+      "iconColor": "#61DBFB",
+      "iconClass": "fab fa-react",
+      "skillRating": [1, 1, 1, 0, 0]
+    },
+    {
+      "skillName": "NodeJS",
+      "iconColor": "#68a063",
+      "iconClass": "fab fa-node",
+      "skillRating": [1, 1, 1, 0, 0]
+    },
+    {
+      "skillName": "ExpressJS",
+      "iconColor": "#3c873a",
+      "iconClass": "fab fa-node-js",
+      "skillRating": [1, 1, 1, 0, 0]
+    },
+    {
+      "skillName": "Git",
+      "iconColor": "#f34f29",
+      "iconClass": "fab fa-git-alt",
+      "skillRating": [1, 1, 1, 0, 0]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "InterBook",
+      "description": "This was my company project. Interbook is an internal part of intermiles project used for hotel booking. Initially i was on frotend team.But after few days i had worked on frontend as well as backend of the project",
+      "link": "https://www.intermiles.com/hotels"
+    },
+    {
+      "name": "Recipe App",
+      "description": "This Is a Recipe App in which you can search any food item by Name or by Diet or by Cuisine And you will get relevant recipes.You can also see detailed Step By Step information about how to make recipe at home.",
+      "link": "https://reciper18.netlify.app/"
+    },
+    {
+      "name": "Automated Timetable Generator",
+      "description": "This web app was made by keeping in mind our Engineering college.In this admin logs in and has to add teachers, subject and allocate subject to teacher  and define how much lectures should be held of particular subject in a week by taking all this. the timetable is generated for all the classes without any clashes.",
+      "link": ""
+    }
+  ]
+}

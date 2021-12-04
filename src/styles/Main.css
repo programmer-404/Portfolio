@@ -1,0 +1,413 @@
+.Main{
+    width: 98%;
+    height: 100%;
+    margin-left: 1rem;
+    box-shadow: var(--main-box-shadow) 5px 10px 20px;
+    border-radius: 0.5rem;
+    text-align: center;
+    overflow-y: scroll;
+    background:var(--main-div-background)
+    
+}
+.mainTitle{
+  font-size: 2rem;
+  margin:3rem 0rem 1rem 0rem;
+  font-family: 'Rampart One', cursive;
+  color: var(--title-color);
+}
+.mainHero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(to bottom right, rgba(245, 246, 252, 0.52), #f13434ba),
+    url('./Hero.jpg');
+    background-size: 100% 100%;
+    width: 95%;
+    margin: 1rem 1rem;
+    height: 17rem;
+    box-shadow: 8px -8px 7px #47464659 ;
+}
+
+a.typewrite,.quote{
+    /* width:80%; */
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color:white;
+    letter-spacing: 2px;
+    text-decoration: none !important;
+    /* text-align: left; */
+
+}
+
+.skillsContainer{
+    /* width:100%; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.skill {
+    height: 4rem;
+    width:10.5rem;
+    font-size: 1.3rem;
+    color: var(--primary-text-color);
+    border-radius: 5px;
+    margin: 1.2rem auto;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.skillInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: var(--box-shadow) 0px 3px 8px;
+  }
+
+  .skill:hover .skillInner {
+    transform: rotateY(180deg);
+  }
+  .skillFront, .skillBack {
+    background-color:var(--sub-div-background);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .skillBack {
+    
+    transform: rotateY(180deg);
+  }
+.skillIcon{
+    flex-grow: 1;
+    border-right:2px solid #bdb8b8;
+    font-size: 150%;
+}
+.skillName,.skillRating{
+    flex-grow: 1.5;
+}
+.skillStar{
+    font-size: 15px;
+    letter-spacing: 0.15rem;
+    color:rgb(255, 196, 0)
+}
+
+.projectsContainer{
+  display:grid;
+  grid-template-columns: auto auto ;
+}
+.projectContainer{
+  margin: 1rem 1rem;
+  background-color: var(--sub-div-background);
+  /* border: 1px solid grey; */
+  box-shadow: var(--box-shadow) 0px 3px 8px;
+  border-radius: 1rem;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  
+}
+
+.projectContainer:hover { transform: scale(1.07); }
+
+.projectBodyContainer{
+    /* position: relative; */
+    border-radius: 5px;
+    background: var(--sub-div-background);
+    font-size: 1rem;
+    color: var(--primary-text-color);
+    line-height: 1.6;
+    text-align: justify;
+    margin: 15px 15px;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.projectTitleContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align:left;
+  border-bottom: 1px solid #d1cfcf;
+
+}
+.projectInfoIcon{
+  align-self: center;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.projectName{
+  /* color: #f06c82; */
+  color: var(--sub-title-text-color);
+  padding-left: 1rem;
+  flex-grow: 9;
+}
+
+.demoBtn {
+  /* position: absolute; */
+  margin: 0.5rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: #00ccff;
+  border-radius: 5px;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  bottom: 5px;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.contactFormContainer{
+  position: relative;
+  width:35rem;
+  height:30rem;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow) 0px 3px 8px;
+  background-color: var(--sub-div-background);
+  margin: 2rem auto ;
+}
+
+.contactForm{
+  display:grid;
+  grid-template-columns: auto auto ;
+}
+
+.grow{
+  grid-column: 1 / span 2;
+}
+
+.contactLabel{
+  font-size: 1rem;
+  float: left ;
+  letter-spacing: 0.1rem;
+  color: var(--primary-text-color);
+  display: block;
+  text-align: left;
+}
+
+.contactInput{
+  width: 90%;
+  margin:1rem;
+  height: 2rem;
+}
+.flexItem{
+  flex-grow: 1;
+}
+.contactInput,.contactInput1{
+  border:0.8px solid  var(--input-border);
+  color:var(--primary-text-color);
+  background-color: var(--input-background);
+  border-radius:7px;
+  outline: none;
+}
+.contactInput:focus,.contactInput1:focus{
+  border: 0.8px solid #f36d6d;
+}
+.contactInput::placeholder,.contactInput1::placeholder{
+  font-size: 1rem;
+  margin:5px 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contactSubmit,.contactLabel,.contactInput1{
+  float: left;
+  margin:0rem 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+.contactSubmit{
+  width: 7rem;
+  font-size: 1rem;
+  height: 2.3rem;
+  background: #94ee58;
+  border: none;
+  color: #fffefe;
+  font-weight: 700;
+  border-radius: 5px;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+.contactInput1{
+  width:90%;
+  height:6rem;
+  margin:1rem;
+}
+
+.mailSuccess,.mailFailure{
+position: absolute;
+bottom: 0px;
+text-align: center;
+margin: 0.5rem auto;
+left: 0;
+right: 0;
+padding: 5px;
+width: 70%;
+font-weight: 700;
+border-radius: 5px;
+}
+.mailSuccess{
+  color: #3ba00c;
+  background-image: linear-gradient( #b3f389, #bef19c);
+}
+.mailFailure{
+  color: #f14857;
+  background-image: linear-gradient( #f7d2d8, #f5ced2);
+}
+
+.tabDiv{
+  display: none;
+}
+
+
+@media screen and (min-width:850px) and (max-width: 1180px) {
+  .skillsContainer{
+    /* width:100%; */
+    display: grid;
+    grid-template-columns: auto auto auto ;
+  }
+}
+
+@media screen and (min-width:480px)and (max-width:850px) {
+  .tabDiv{
+    display: block;
+  }
+  .myJobTitle,.myName,.sideBarFooter{
+    display:none;
+  }
+
+  .eduContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .educationName{
+    font-size: 1.3rem;
+    padding: 1rem;
+    color:var(--sub-title-text-color);
+    font-weight: 600;
+    border-bottom: 1px solid #d1cfcf;
+  }
+  .eduTitle,.eduItem{
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .skillsContainer{
+    /* width:100%; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  a.typewrite,.quote{
+    font-size: 1.8rem;
+  }
+  .mainHero{height: 15rem;}
+  .mainTitle{
+    font-size: 1.5rem;
+  }
+  .skill{
+    font-size: 1.3rem;
+    height: 4rem;
+    width:9rem;
+  }
+  .projectBodyContainer,.contactLabel,.contactInput::placeholder,.contactInput1::placeholder,.contactSubmit{
+    font-size: 0.8rem;
+  }
+  .projectName{font-size: 1.3rem;}
+  .contactFormContainer{
+    height: 29rem;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .demoBtn {
+    margin: 0.5rem;
+    width: 4.5rem;
+    height: 1.6rem;
+    font-size: 0.8rem;
+  }
+  .toggleLabel{
+    display: block;
+    position: relative;
+    float: right;
+    margin: 12px;
+  }
+  .expContainer{
+    width: 542.750px;
+    height: 127.375px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .contactFormContainer{
+      width:100% !important;
+      height:auto !important;
+      margin: 0px !important;
+      box-shadow: none !important;
+      background-color: var(--main-background);
+    }
+  .mainTitle{
+    text-align: center;
+    margin: 1rem auto !important;
+  }
+  .contactInput{margin:0.5rem 1rem !important}
+  .closeBtn{
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    margin:  1rem;
+    font-size: 1.5rem;
+    color: var(--close-btn-text-color);
+    right: 0rem;
+  }
+  
+  .contactDiv{
+      width:100%;
+      /* height: calc(100vh - 3px); */
+      margin: 0%;
+      padding: 0%;
+  }
+
+  .skill{
+    font-size: 1.1rem;
+    height: 4rem;
+    width:8.5rem;
+  }
+
+  .skillsContainer{
+    /* width:100%; */
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .projectDesc{
+    font-size: 1rem;
+  }
+  .mailSuccess,.mailFailure{
+    position: fixed;
+    margin: 0 auto;
+    bottom: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .contactSubmit{
+    width: 90%;
+  }
+  .projectBodyContainer{
+  background: var(--main-div-background);
+  }
+}

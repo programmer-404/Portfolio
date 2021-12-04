@@ -1,0 +1,297 @@
+
+
+
+/* sidebar main div */
+.sideBar{
+    position: relative;
+    /* overflow-y: scroll; */
+    box-shadow: var(--main-box-shadow) 5px 10px 20px;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width:100%;
+    background:var(--main-div-background);
+}
+/* sidebar main Container div */
+
+/* sideBar Hero Section Css */
+.profileImg{
+    position: relative;
+    border-radius:50%;
+    width:45%;
+    height:55%;
+    margin-top: 5%;
+}
+
+.sideBarHero{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height:33%;
+    background:var(--sub-div-color);
+    border-bottom: 1px solid var(--sidebar-border);
+    border-radius: 0.5rem;
+}
+.myName{
+    font-family: 'Press Start 2P', cursive; 
+    position:relative;
+    margin:  1rem 0rem ;
+    font-size: 90%;
+    color: var(--primary-text-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.myName:hover{
+    color:var(--title-color);
+    cursor: pointer;
+}
+.myJobTitle{
+    position:relative;
+    font-family: 'Arimo';
+    font-size: 100%;
+    color: var(--primary-text-color);
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+/* sideBar Hero Section Css */
+/* sideBar Body Section Css */
+.sideBarBody{
+    overflow-y: scroll;
+    position: absolute;
+    top: 33%;
+    height: 60%;
+}
+.sideBarFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 7%;
+    /* background: #292727; */
+    background: var(--main-div-background);
+    border-top: 1px solid var(--sidebar-border);
+    border-radius: 0.5rem;
+}
+.icon{
+    flex-grow: 1;
+    flex-basis: 0;
+    font-size:150%;
+
+}
+
+.GeneralInfo{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.InfoItem{
+    color: var(--primary-text-color);
+    font-family: 'Padauk', sans-serif;
+    font-style: italic;
+    /* font-weight: 700; */
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-align: right;
+    margin: 10px 15px 0px 0px ;
+}
+.InfoTitle{
+    font-family: 'Padauk', sans-serif;
+    /* font-family: 'Rampart One', cursive; */
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color:var(--title-color);
+    text-align: left;
+    margin: 10px 0px 0px 15px;
+}
+
+.sideBarElement{
+    font-size: 0.9rem;
+    color: var(--primary-text-color);
+}
+.Languages{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    list-style-type: '';
+}
+/* .Languages li::before {
+    content: "✽ ";
+    color: #ffa500;
+  } */
+
+
+.sideBarTitle{
+    font-size: 1.3rem;
+    /* font-family: 'Arimo', sans-serif; */
+    font-family: 'Rampart One', cursive;
+    text-align: left;
+    margin: 5px 0px 5px 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--title-color);
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+}
+
+.educationContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.eduItem{
+    text-align: left;
+    font-size: 0.9rem;
+    color: var(--primary-text-color);
+    margin:0.3rem 0.3rem;
+}
+.eduTitle{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--sub-title2-text-color);
+    text-align: right;
+    margin:0.3rem 0.4rem;
+}
+.sideBarSubTitle{
+    color: var(--sub-title-text-color);
+    font-family: 'Padauk', sans-serif;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0.5rem 0rem 0.2rem 1rem;
+}
+.courseContainer{
+    margin: 0.2rem 0.2rem 0.5rem 0.2rem;
+}
+
+.eduTitle,.eduItem,.sideBarElement{
+   font-family: 'Nunito', sans-serif;
+}
+
+.divider{
+    border-bottom: 0.1px solid #bbb8b8;
+    margin: 0.9rem 1rem 0.5rem 1rem;
+}
+
+.downloadCV {
+    width: 90%;
+    height: 2rem;
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    color: var(--sub-title2-text-color);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    border: 1px solid var(--downloadCV-border);
+    background: linear-gradient(to right, #f16565 50%, var(--sub-div-background) 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all .5s ease-out;
+
+}
+
+.downloadCV:hover {
+    /* border: 2px solid rgb(73, 235, 73); */
+    background-position: bottom left;
+    color: #fff;
+  }
+
+.downloadCV,.icon{
+    cursor: pointer;
+}
+
+.desktopView{display: block !important;}
+.message,.mobileDiv{display:none !important}
+
+/* @media screen and (max-width: 480px) {
+    .sideBar{
+    display:none;
+    }
+  } */
+
+
+  @media screen and (min-width:480px) and (max-width:850px) {
+    .sideBar{
+        height: 0px;
+        width:0px;
+    }
+  }
+
+  @media screen and (max-width:480px) {
+    .desktopView{display: none !important;}
+    .myName,.myJobTitle{font-size: 95%;}
+    .mobileDiv,.message,.contactForm{display: block !important;}
+    .sideBarTitle,.sideBarSubTitle{font-size: 1.4rem;}
+    .eduItem,.eduTitle,.sideBarElement{font-size: 1rem;}
+    .InfoItem,.InfoTitle{font-size: 1.2rem;}
+  }
+
+
+/* @media screen and (max-width: 480px) {
+
+  .contactForm{
+    display:block;
+  }
+
+  .contactFormContainer{
+    position: relative;
+    width:100%;
+    height:auto;
+    border-radius: 15px;
+    box-shadow: #0000003d 0px 3px 8px;
+    margin: 2rem auto ;
+  }
+  .ContactTitle{
+  
+    font-size: 1.8rem;
+  margin:1.9rem auto;
+  font-family: 'Rampart One', cursive;
+  color: #0a1c6d;
+  display: flex;
+  justify-content: center;
+  }
+
+  .contactSubmit{
+    width: 90%;
+    font-size: 1rem;
+    height: 2.3rem;
+    background:#0a1c6d;;
+    border: none;
+    color: #fffefe;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+  }
+
+  .mailSuccess,.mailFailure{
+    position: fixed;
+    margin: 0 auto;
+    bottom: 0;
+    font-size: 1rem;
+    padding: 0;
+  }
+
+
+  .closedbtn{
+position: fixed;
+top: 0;
+margin:  1rem;
+font-size: 1.5rem;
+color: #0a1c6d;
+right: 0rem;
+  }
+
+  .contactInput{
+    margin:0.7rem 1rem ;
+  }
+} */
+
+
