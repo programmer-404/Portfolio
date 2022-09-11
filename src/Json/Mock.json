@@ -167,8 +167,13 @@
   "projects": [
     {
       "name": "InterBook",
-      "description": "This was my company project. Interbook is an internal part of intermiles project used for hotel booking. Initially i was on frotend team.But after few days i had worked on frontend as well as backend of the project",
+      "description": "Interbook is an internal part of intermiles project used for hotel booking. here the user can book a hotel cancel a hotel booking.the intermiles team have reward engine by which they reward intermiles for each booking made by the customer. the customer then can use these intermiles for booking another hotel.",
       "link": "https://www.intermiles.com/hotels"
+    },
+    {
+      "name": "Workfitt",
+      "description": "This is a mobile app build for physiotherapist for giving prescription to their patient's.Doctor can give prescription by selecting exercises,suggest adjuncts,suggest x-rays and generate bill.Audio file is generated for each exercise as per input on app also a bill pdf is generated optionally and a mail is sent to the patient on their email id with a link to prescription where they can view the prescription and a pdf of bill as attachment.Doctor can track patient exercise completion.Doctor can search for article as per their need.",
+      "link": ""
     },
     {
       "name": "Recipe App",
