@@ -193,7 +193,7 @@ function Main() {
         
 
             {/* Contact Form  */}
-            <Contact/>
+            {/* <Contact/> */}
             {/* Contact Form  */}
             
             

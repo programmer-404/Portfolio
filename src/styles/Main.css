@@ -128,7 +128,7 @@ p.typewrite,.quote{
     font-size: 1rem;
     color: var(--primary-text-color);
     line-height: 1.6;
-    text-align: justify;
+    text-align: start;
     margin: 15px 15px;
     letter-spacing: 1px;
     font-family: 'Nunito', sans-serif;

@@ -25,53 +25,12 @@
     },
     {
       "infoTitle": "Age",
-      "infoValue": "24"
+      "infoValue": "26"
     }
   ],
 
   "education": [
-    {
-      "educationType": "Secondary Education",
-      "educationitems": [
-        {
-          "title": "School",
-          "value": "Sundatta High School"
-        },
-        {
-          "title": "Board",
-          "value": "Maharashtra State Board"
-        },
-        {
-          "title": "Y.O.P",
-          "value": "2013"
-        },
-        {
-          "title": "Percentage",
-          "value": "73.60%"
-        }
-      ]
-    },
-    {
-      "educationType": "Higher Secondary Education",
-      "educationitems": [
-        {
-          "title": "College",
-          "value": "Bhavan's H.S College"
-        },
-        {
-          "title": "Board",
-          "value": "Maharashtra State Board"
-        },
-        {
-          "title": "Y.O.P",
-          "value": "2015"
-        },
-        {
-          "title": "Percentage",
-          "value": "58%"
-        }
-      ]
-    },
+    
     {
       "educationType": "Bachelor's Degree",
       "educationitems": [
@@ -103,7 +62,6 @@
         "endDate": "Present"
       }
     }
-    
   ],
   "quote": [
     "Only 10% programming is coding.Other 90% is debugging.",
@@ -166,24 +124,29 @@
 
   "projects": [
     {
-      "name": "InterBook",
-      "description": "Interbook is an internal part of intermiles project used for hotel booking. here the user can book a hotel cancel a hotel booking.the intermiles team have reward engine by which they reward intermiles for each booking made by the customer. the customer then can use these intermiles for booking another hotel.",
-      "link": "https://www.intermiles.com/hotels"
+      "name": "Indigo (Hotel)",
+      "description": "Led the development of a comprehensive hotel booking platform aimed at providing travelers with a seamless and user-friendly interface for hotel booking experience. Ensured adherence to best practices and coding standards to maintain code quality.",
+      "link": "https://aem-qa-skyplus6e.goindigo.in/hotels"
+    },
+    {
+      "name": "Sbi Cards (Flights)",
+      "description": "Developed an intuitive flight search interface that allows users to search for flights based on destination, dates, preferred airlines.Implemented real-time availability checks and reservation functionalities to enable users to book flights seamlessly.",
+      "link": "https://sbicuat.vetravel.io/hotels?auth_token=ffe5d4ef24b886dc79cf009b8e25cce9283ad675cacf584871e7a23a46ac29fd&env=test"
     },
     {
       "name": "Workfitt",
-      "description": "This is a mobile app build for physiotherapist for giving prescription to their patient's.Doctor can give prescription by selecting exercises,suggest adjuncts,suggest x-rays and generate bill.Audio file is generated for each exercise as per input on app also a bill pdf is generated optionally and a mail is sent to the patient on their email id with a link to prescription where they can view the prescription and a pdf of bill as attachment.Doctor can track patient exercise completion.Doctor can search for article as per their need.",
+      "description": "Designed and executed a full-stack freelance project, delivering a user-friendly platform to streamline healthcare processes and enhance patient monitoring. Key features include personalized prescription generation, automated audio exercise tracking, doctor login, admin panel for component management, and API integration for seamless communication between front-end and back-end systems.",
       "link": ""
     },
     {
-      "name": "Recipe App",
-      "description": "This Is a Recipe App in which you can search any food item by Name or by Diet or by Cuisine And you will get relevant recipes.You can also see detailed Step By Step information about how to make recipe at home.",
-      "link": "https://reciper18.netlify.app/"
+      "name": "Tata Neu (Hotels)",
+      "description": "Designed and implemented the backend architecture and services, including APIs,databases, and business logic components, to support the functionality and requirements of the hotel booking platform.Collaborated with cross-functional teams to deliver new features and enhancements to the platform",
+      "link": "https://www.tatadigital.com/travel/home?lob=hotel"
     },
     {
-      "name": "Automated Timetable Generator",
-      "description": "This web app was made by keeping in mind our Engineering college.In this admin logs in and has to add teachers, subject and allocate subject to teacher  and define how much lectures should be held of particular subject in a week by taking all this. the timetable is generated for all the classes without any clashes.",
-      "link": ""
+      "name": "Vms Component Library",
+      "description": "Developed a component library, organizing components into categories such as buttons, forms, cards, and modals.Implemented a scalable and extensible structure to accommodate future expansion and customization.The component library serves as a centralized repository of UI elements, facilitating efficiency in front-end development.",
+      "link": "https://www.tatadigital.com/travel/home?lob=hotel"
     }
   ]
 }
