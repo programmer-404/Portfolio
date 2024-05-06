@@ -3,7 +3,7 @@ import React from "react";
 import {useEffect} from 'react'
 import "../styles/Main.css"
 import Mock from "../Json/Mock.json"
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import Toggler from "./Toggler";
 
 function Main() {
